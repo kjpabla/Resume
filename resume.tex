@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%
+% This resume is based on an open-source resume template available on OverLeaf (Kudos to LianTze Lim (liantze@gmail.com))
+% Link to the original template: https://www.overleaf.com/latex/templates/a-customised-curve-cv/mvmbhkwsnmwv 
+%
+% @Author: Karanjot (KJ) Pabla (kp16km@brocku.ca)
+% @Date: 19 July, 2020
+%
+\documentclass[letterpaper,skipsamekey,11pt,english]{curve}
+
+\usepackage{settings}
+\usepackage{fancyhdr}
+
+\ifxetexorluatex % If you're using XeLaTeX or LuaLaTeX
+  \usepackage{fontspec} 
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage[medium,bold]{cabin}
+  \usepackage[varqu,varl,scale=1]{zi4}
+\else % If you're using pdfLaTeX or latex
+  \usepackage[T1]{fontenc}
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage{cabin}
+  \usepackage[varqu,varl,scale=1]{zi4}
+\fi
+
+% Page margins
+\geometry{left=1.75cm,right=1.75cm,top=1cm,bottom=1cm}
+
+\leftheader{
+  {\huge\bfseries\sffamily Karanjot (KJ) Pabla}
+}
+
+\rightheader{~}
+
+\title{Karanjot Pabla Resume}
+
+\begin{document}
+\makeheaders[c]
+\vspace{-2mm}
+\begin{minipage}{3in}
+    \makefield{\faEnvelope[regular]}{\texttt{kp16km@brocku.ca}}
+    \par
+    \makefield{\faPhone}{\texttt{365-778-9899}}  
+    \par
+    \makefield{\faLinkedin}{\url{www.linkedin.com/in/kjpabla/}}  
+    \par
+    \makefield{\faGithub}{\url{www.github.com/kjpabla/}}
+\end{minipage}
+\hfill
+\begin{minipage}{3.2in}
+    \makefield{\faLaptop}{\normalsize\bfseries\sffamily Programming Languages: }
+    \begin{itemize}\vspace{-2mm}
+        \small\bfseries\sffamily
+        \item \texttt{\faJava}Java, \space C\texttt{++}    
+        \item \texttt{\faPython}Python, \texttt{\faJs}JavaScript, \texttt{\faDatabase}SQL
+        \vspace{2mm}
+    \end{itemize}
+\end{minipage}
+\makerubric{education}\vspace{-4mm}
+\makerubric{employment}\vspace{-9mm}
+\makerubric{skills}\vspace{-3mm}
+\makerubric{projs}
+\end{document}
