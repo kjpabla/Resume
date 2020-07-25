@@ -12,10 +12,12 @@ Feel free to take a look! (And possibly help contribute to it 😉)
 The following program files are used to make up the Latex Resume specifically:
 1. ***[education.tex:](https://github.com/kjpabla/Resume/blob/master/education.tex)*** Class housing the resume's **Education** section
 2. ***[employment.tex:](https://github.com/kjpabla/Resume/blob/master/employment.tex)*** Class housing the resume's **Employment** section
-3. ***[projs.tex:](https://github.com/kjpabla/Resume/blob/master/projs.tex)*** Class housing the resume's **Projects** section
-4. ***[resume.tex:](https://github.com/kjpabla/Resume/blob/master/resume.tex)*** The document class incorporating all the other class files to create the Resume 
-5. ***[settings.sty:](https://github.com/kjpabla/Resume/blob/master/settings.sty)*** Class housing the settings for the resume format (font, size, etc...)
-6. ***[skills.tex:](https://github.com/kjpabla/Resume/blob/master/skills.tex)*** Class housing the resume' **Skills** section
+3. ***[info.tex:](https://github.com/kjpabla/Resume/blob/master/projs.tex)*** Class housing the resume's **Contact Info** section
+4. ***[projs.tex:](https://github.com/kjpabla/Resume/blob/master/projs.tex)*** Class housing the resume's **Projects** section
+5. ***[progLangs.tex:](https://github.com/kjpabla/Resume/blob/master/progLangs.tex)*** Class housing the resume's **Programming Languages** section
+6. ***[resume.tex:](https://github.com/kjpabla/Resume/blob/master/resume.tex)*** The document class incorporating all the other class files to create the Resume 
+7. ***[settings.sty:](https://github.com/kjpabla/Resume/blob/master/settings.sty)*** Class housing the settings for the resume format (font, size, etc...)
+8. ***[skills.tex:](https://github.com/kjpabla/Resume/blob/master/skills.tex)*** Class housing the resume' **Skills** section
 
 The remaining files:
 1. ***[index.html:](https://github.com/kjpabla/Resume/blob/master/index.html)*** Index file used to house the Resume PDF file online [here](https://kjpabla.github.io/Resume/)
