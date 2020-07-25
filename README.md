@@ -20,5 +20,5 @@ The remaining files:
 
 
 ### Kudos
-This resume is based on an open-source resume template available on OverLeaf (Kudos to LianTze Lim (liantze@gmail.com) 😊)\
+This resume is based on an open-source resume template available on OverLeaf (Kudos to LianTze Lim 😊)\
 Link to the original template: https://www.overleaf.com/latex/templates/a-customised-curve-cv/mvmbhkwsnmwv 
