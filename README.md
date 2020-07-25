@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## KJ's Resume Page
 
-You can use the [editor on GitHub](https://github.com/kjpabla/Resume/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The following project contains all the project files used in creating my resume in Latex. To view my resume in PDF format, open the [Karanjot_Pabla_Resume.pdf](https://github.com/kjpabla/Resume/blob/master/Karanjot_Pabla_Resume.pdf) file.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Feel free to take a look! (And possibly help contribute to it 😉)
 
-### Markdown
+### Program File Breakdown
+The following program files are used to make up the Latex Resume specifically:
+1. ***[education.tex:](https://github.com/kjpabla/Resume/blob/master/education.tex)*** Class housing the resume's **Education** section
+2. ***[employment.tex:](https://github.com/kjpabla/Resume/blob/master/employment.tex)*** Class housing the resume's **Employment** section
+3. ***[projs.tex:](https://github.com/kjpabla/Resume/blob/master/projs.tex)*** Class housing the resume's **Projects** section
+4. ***[resume.tex:](https://github.com/kjpabla/Resume/blob/master/resume.tex)*** The document class incorporating all the other class files to create the Resume 
+5. ***[settings.sty:](https://github.com/kjpabla/Resume/blob/master/settings.sty)*** Class housing the settings for the resume format (font, size, etc...)
+6. ***[skills.tex:](https://github.com/kjpabla/Resume/blob/master/skills.tex)*** Class housing the resume' **Skills** section
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The remaining files:
+1. ***[index.html:](https://github.com/kjpabla/Resume/blob/master/index.html)*** Index file used to house the Resume PDF file online [here](https://kjpabla.github.io/Resume/)
+2. ***[README.md:](https://github.com/kjpabla/Resume/blob/master/README.md)*** This LOL! 😂
+3. ***[Karanjot_Pabla_Resume.pdf:](https://github.com/kjpabla/Resume/blob/master/Karanjot_Pabla_Resume.pdf)*** The Latex Resume in PDF format
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kjpabla/Resume/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Kudos
+This resume is based on an open-source resume template available on OverLeaf (Kudos to LianTze Lim (liantze@gmail.com) 😊)\
+Link to the original template: https://www.overleaf.com/latex/templates/a-customised-curve-cv/mvmbhkwsnmwv 
