@@ -1,6 +1,10 @@
 ## KJ's Resume Page
 
-The following project contains all the project files used in creating my resume in Latex. To view my resume in PDF format, open the [Karanjot_Pabla_Resume.pdf](https://github.com/kjpabla/Resume/blob/master/Karanjot_Pabla_Resume.pdf) file.
+The following project contains all the project files used in creating my resume in Latex. 
+
+This project utilizes the [CurVe Class](https://ctan.org/pkg/curve), a class that provides specialized commmands to construct various features valuable to resume structure.
+
+To view my resume in PDF format, open the [Karanjot_Pabla_Resume.pdf](https://github.com/kjpabla/Resume/blob/master/Karanjot_Pabla_Resume.pdf) file.
 
 Feel free to take a look! (And possibly help contribute to it 😉)
 
